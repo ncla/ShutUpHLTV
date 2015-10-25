@@ -27,9 +27,9 @@ function addScript(template) {
     document.documentElement.appendChild(s);
 }
 
-    addScript({
-        textContent: inject.toString() + " inject()"
-    });
+addScript({
+    textContent: inject.toString() + " inject()"
+});
 
 $(document).ready(function() {
     $('body, html').attr('style', 'background-image: none;');
