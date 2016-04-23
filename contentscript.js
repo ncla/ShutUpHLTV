@@ -25,7 +25,8 @@ var style =
     '#razer { display: none; }' +
     'iframe[src*="wombo.gg"] { display: none; }' +
     'a[href*="skinsanity.gg"] { display: none; }' +
-    'a[href*="egbaffiliates.com"] { display: none; }';
+    'a[href*="egbaffiliates.com"] { display: none; }' +
+    'a[href*="bitskins.com"] { display: none; }';
 
 var styleTag = document.createElement("style");
 styleTag.textContent = style;
