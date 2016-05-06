@@ -20,12 +20,13 @@ document.documentElement.appendChild(scriptTag);
 
 var style =
     'html, body { background: white !important; }' +
-    '#firstCollumn .boxNoDrag:first-child { display: none; }' +
-    '.topHolder a img { display: none; }' +
-    '#razer { display: none; }' +
-    'iframe[src*="wombo.gg"] { display: none; }' +
-    'a[href*="skinsanity.gg"] { display: none; }' +
-    'a[href*="egbaffiliates.com"] { display: none; }' +
+    '#firstCollumn .boxNoDrag:first-child,' +
+    '.topHolder a img,' +
+    '#razer,' +
+    'iframe[src*="wombo.gg"],' +
+    'iframe[src*="gainskins.com"],' +
+    'a[href*="skinsanity.gg"],' +
+    'a[href*="egbaffiliates.com"],' +
     'a[href*="bitskins.com"] { display: none; }';
 
 var styleTag = document.createElement("style");
@@ -40,5 +41,5 @@ $(document).ready(function() {
     });
 
     $('img[src*="txt_sponsors.gif"]').parents('li').hide();
-    $('a[href*="alphadraft.go2cloud.org"], iframe[src*="wombo.gg"]').remove();
+    $('a[href*="alphadraft.go2cloud.org"], iframe[src*="wombo.gg"], iframe[src*="gainskins.com"]').remove();
 });
