@@ -25,6 +25,8 @@ var style =
     '#razer,' +
     'iframe[src*="wombo.gg"],' +
     'iframe[src*="gainskins.com"],' +
+    'iframe[src*="king"],' + //Kinguin
+    'a[href*="bit.ly/2cUilNO"],' + //Hellcase
     'a[href*="skinsanity.gg"],' +
     'a[href*="egbaffiliates.com"],' +
     'a[href*="bitskins.com"] { display: none; }';
